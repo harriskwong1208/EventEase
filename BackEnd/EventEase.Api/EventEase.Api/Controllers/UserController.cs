@@ -19,7 +19,7 @@ namespace EventEase.Api.Controllers
      // public async Task<IActionResult> GetAllUsers()
      // Using ActionResult instead of IActionResult shows extra details on swagger like the schema and structure of the method 
         {
-            //Returns a status code of 200 
+            //Returns a status code of 200.
             return Ok(users);
         }
         [HttpGet("{id}")]
