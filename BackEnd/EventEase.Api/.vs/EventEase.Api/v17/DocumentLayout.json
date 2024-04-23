@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|c:\\users\\harri\\desktop\\eventease\\backend\\eventease.api\\eventease.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|solutionrelative:eventease.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|c:\\users\\harri\\desktop\\eventease\\backend\\eventease.api\\eventease.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|solutionrelative:eventease.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|c:\\users\\harri\\desktop\\eventease\\backend\\eventease.api\\eventease.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CD99A35-0A67-44CE-8CB6-13389681F15D}|EventEase.Api\\EventEase.Api.csproj|solutionrelative:eventease.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EventEase.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EventEase.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:17:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EventEase.Api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Models\\User.cs",
+              "RelativeToolTip": "EventEase.Api\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:13:56.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EventEase.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Program.cs",
+              "RelativeToolTip": "EventEase.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T20:26:42.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
