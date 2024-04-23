@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "EventEase.Api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "EventEase.Api\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T20:17:26.128Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "EventEase.Api\\Models\\User.cs",
               "ToolTip": "C:\\Users\\harri\\Desktop\\EventEase\\BackEnd\\EventEase.Api\\EventEase.Api\\Models\\User.cs",
               "RelativeToolTip": "EventEase.Api\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T20:13:56.689Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "EventEase.Api\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T20:26:42.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T20:26:42.458Z"
             }
           ]
         }

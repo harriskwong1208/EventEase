@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EventEase.Api"
+    "\\EventEase.Api",
+    "\\EventEase.Api\\Controllers"
   ],
   "SelectedNode": "\\EventEase.Api.sln",
   "PreviewInSolutionExplorer": false
