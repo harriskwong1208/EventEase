@@ -59,6 +59,17 @@ namespace EventEase.Api.Controllers
 
             return Ok("Successfully updated user.");
         }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<User>> DeleteUser(int id)
+        {
+            User user = users.Find(u => u.Id == id);
+            if (user == null)
+            {
+                return NotFound("Not found in database.");
+            }
+            users.Remove(user);
+            return Ok(users);
+        }
 
     }
 }
