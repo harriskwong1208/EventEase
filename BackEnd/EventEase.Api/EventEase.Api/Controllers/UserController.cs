@@ -1,4 +1,5 @@
 ﻿using EventEase.Api.Models;
+using EventEase.Api.Services.UserService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,12 +9,10 @@ namespace EventEase.Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-
-        private static List<User> users = new List<User> {
-                    new User { Id = 1, FirstName = "Harris", LastName= "Kwong",Phone="123-123-1234"},
-                    new User { Id = 2, FirstName = "Ichigo", LastName= "Kurosaki",Phone="123-soul", City="Karakura Town"},
-                    new User { Id = 3, FirstName = "Rukia", LastName= "Kuchiki",Phone="123-soul", City="Soul Society"},
-        };
+        private readonly IUserService _userService;
+       public UserController(IUserService userService) {
+            _userService = userService;
+        }
         [HttpGet]
         //Return status code
         public async Task<ActionResult<List<User>>> GetAllUsers()
@@ -21,54 +20,47 @@ namespace EventEase.Api.Controllers
      // Using ActionResult instead of IActionResult shows extra details on swagger like the schema and structure of the method 
         {
             //Returns a status code of 200.
-            return Ok(users);
+
+            return Ok(_userService.GetAllUsers());
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
-            User user = users.Find(u => u.Id == id);
-            if (user == null)
+            var result = _userService.GetUser(id);
+            if (result == null)
             {
                 //Returns status code 404
                 return NotFound($"User with the id: {id} cannot be found in the database.");
             }
-            return Ok(user);
+            return Ok(result);
         }
         [HttpPost]
         public async Task<ActionResult<User>> AddUser(User user)
         {
-            users.Add(user);
-            
+            var result = _userService.AddUser(user);
             return Ok("Successfully added user.");
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult<User>> AddUser(int id ,User request)
+        public async Task<ActionResult<User>> UpdateUser(int id ,User request)
         {
-            User user = users.Find(u => u.Id==id);  
-            if(user == null)
+            var result = _userService.UpdateUser(id, request);
+            if (result == null)
             {
                 return NotFound("Not found in database.");
             }
-            user.FirstName = request.FirstName;
-            user.LastName   = request.LastName;
-            user.Birthday = request.Birthday;
-            user.Phone = request.Phone;
-            user.City = request.City;
-            user.Email = request.Email;
-            user.Street = request.Street;
+            
 
-            return Ok("Successfully updated user.");
+            return Ok(result);
         }
         [HttpDelete("{id}")]
         public async Task<ActionResult<User>> DeleteUser(int id)
         {
-            User user = users.Find(u => u.Id == id);
-            if (user == null)
+            var result = _userService.DeleteUser(id);
+            if (result == null)
             {
                 return NotFound("Not found in database.");
             }
-            users.Remove(user);
-            return Ok(users);
+            return Ok(result);
         }
 
     }
