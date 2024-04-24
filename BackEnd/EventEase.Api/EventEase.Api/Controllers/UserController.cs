@@ -12,6 +12,7 @@ namespace EventEase.Api.Controllers
         private static List<User> users = new List<User> {
                     new User { Id = 1, FirstName = "Harris", LastName= "Kwong",Phone="123-123-1234"},
                     new User { Id = 2, FirstName = "Ichigo", LastName= "Kurosaki",Phone="123-soul", City="Karakura Town"},
+                    new User { Id = 3, FirstName = "Rukia", LastName= "Kuchiki",Phone="123-soul", City="Soul Society"},
         };
         [HttpGet]
         //Return status code

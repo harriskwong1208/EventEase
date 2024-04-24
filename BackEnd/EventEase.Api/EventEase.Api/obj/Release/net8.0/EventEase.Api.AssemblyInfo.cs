@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventEase.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+160364a6100f4c988b9ee70dbd94262785424c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86e12992654cc5d3071fef0bb8f24cdb63f38550")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventEase.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventEase.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
