@@ -23,7 +23,7 @@ namespace EventEase.Api.Controllers
             return Ok(users);
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<List<User>>> GetUser(int id)
+        public async Task<ActionResult<User>> GetUser(int id)
         {
             User user = users.Find(u => u.Id == id);
             if (user == null)
@@ -32,6 +32,31 @@ namespace EventEase.Api.Controllers
                 return NotFound($"User with the id: {id} cannot be found in the database.");
             }
             return Ok(user);
+        }
+        [HttpPost]
+        public async Task<ActionResult<User>> AddUser(User user)
+        {
+            users.Add(user);
+            
+            return Ok("Successfully added user.");
+        }
+        [HttpPut("{id}")]
+        public async Task<ActionResult<User>> AddUser(int id ,User request)
+        {
+            User user = users.Find(u => u.Id==id);  
+            if(user == null)
+            {
+                return NotFound("Not found in database.");
+            }
+            user.FirstName = request.FirstName;
+            user.LastName   = request.LastName;
+            user.Birthday = request.Birthday;
+            user.Phone = request.Phone;
+            user.City = request.City;
+            user.Email = request.Email;
+            user.Street = request.Street;
+
+            return Ok("Successfully updated user.");
         }
 
     }

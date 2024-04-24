@@ -1,4 +1,6 @@
-﻿namespace EventEase.Api.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EventEase.Api.Models
 {
     public class User
     {
