@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EventEase.Api.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventEase.Api.Data
 {
@@ -13,7 +14,7 @@ namespace EventEase.Api.Data
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=HARRIS-LAPTOP\\SQLEXPRESS;Database=EventEaseLocal;Trusted_Connection=true;TrustServerCertificate=true;");
         }
-
+        public DbSet<User> Users { get; set; }
     }
 
 }
