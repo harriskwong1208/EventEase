@@ -1,8 +1,18 @@
-# EventEase
+# What is EventEase
 
+EventEase is a  daily hub designed to streamline event tracking and management. This web application features email notifications for upcoming events, enhancing user organization and timely reminders. Additionally, EventEase offers a convenient location lookup functionality, enabling users to find and save places of interest such as restaurants, sports centers, schools, and bookstores for future reference. Moreover, EventEase provides users with a calorie tracking feature, allowing them to input their daily calorie intake. EventEase then calculates and projects their calorie patterns, providing valuable insights into their dietary habits.
 
-Features to implmenebt 
-1. Google OAuth authenetication
-2. React Front end
-3. Asp.net core web api 
-4. Set up azure/docker for hosting sql and backend
+# Frontend (In progress)
+- ReactJS
+- TypeScript
+- HTML/CSS
+
+# Backend (In Progress)
+- ASP.NET
+- C#
+- Microsoft SQL Server
+
+# Cloud Services 
+- Amazon Web services
+- Microsoft Azure
+
