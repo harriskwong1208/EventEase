@@ -7,7 +7,7 @@ EventEase is a  daily hub designed to streamline event tracking and management. 
 - TypeScript
 - HTML/CSS
 
-# Backend (In Progress)
+# Backend
 - ASP.NET
 - C#
 - Microsoft SQL Server
